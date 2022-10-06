@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
 
  
 
-    printf("\nElement desordenados\n");
+    printf("\nElementos desordenados\n");
   for (i = 0; i <= n-1; i++)
   {
     printf("Element a[%d]: %d\n", i, a[i]);
@@ -79,10 +79,11 @@ int main(int argc, char* argv[])
       }
     }
   }
-  printf("\nElement ordenados\n");
+  printf("\nElementos ordenados\n");
   for (i = 0; i <= n-1; i++)
   {
     printf("Element a[%d]: %d\n", i, a[i]);
   }
+  system("pause");
   return 0;
 }
