@@ -18,7 +18,7 @@ void main (void)
                 R4++;
                 else
                     R5++;
-                    printf ("Ingresa la calificación del alumno: ");
+                    printf ("Ingresa la calificacion del alumno: ");
                     scanf ("%f", &CAL);
     } 
     printf ("\n0..3.99 = %d", R1);
