@@ -1,9 +1,13 @@
-#include <math.h>
 #include <stdio.h>
-int main (int argc, char const *argv[])
-{	
-double numero = 2525.60;	
-double raizCuadrada = sqrt(numero);	
-printf("La raiz cuadrada de %lf es %lf\n", numero, raizCuadrada);	
-return 0;
+#include <math.h>
+
+int main(int argc, char const *argv[])
+{
+    double numero; 
+	printf("Escribe un numero y te dire su raiz cuadrada\n");
+	scanf("%lf", &numero); 
+	double raizCuadrada = sqrt(numero); 
+	printf("La raiz cuadrada de %lf es %lf\n", numero, raizCuadrada);
+    system ("pause");
+	return 0;
 }
