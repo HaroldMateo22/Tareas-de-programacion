@@ -49,7 +49,7 @@ void F2(float A[][12], int F, int C)
 int I, J;
 float SUM, PRO;
 printf("\n\nPROMEDIO ANUALIZADO DE LAS ACCIONES DE LOS FONDOS");
-for(I=0; I<R; I++)
+for(I=0; I < R; I++)
 {
 SUM = 0;
 for(J=0; J<C; J++)

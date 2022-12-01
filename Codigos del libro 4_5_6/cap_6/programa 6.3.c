@@ -38,10 +38,9 @@ if (SUM > MAY)
 MAY = SUM;
 AO = K;
 }
-
 printf("\n\nAño con mayor ingreso de alumnos: %d Alumnos: %d", AO+1, MAY);
 }
-void Funcion2(int A[][C][P],int FI, int CO, int PR)
+void Funcion2(int A[][C][P],int FI, int CO, int PR);
 {
 int I, J, MAY = 0, CAR = -1, SUM;
 for (I=0; I<FI; I++)
@@ -58,7 +57,7 @@ CAR = I;
 printf("\n\nCarrera con mayor número de alumnos: %d Alumnos: %d", CAR+1, 
 MAY);
 }
-void Funcion3(int A[][C][P],int FI, int CO, int PR)
+void Funcion3(int A[][C][P],int FI, int CO, int PR);
 {
 int K, J, MAY = 0, AO = -1, SUM;
 for (K=0; K<PR; K++)
@@ -73,4 +72,5 @@ AO = K;
 }
 }
 printf("\n\nAño con mayor ingreso de alumnos: %d Alumnos: %d", AO+1, MAY);
+}
 }

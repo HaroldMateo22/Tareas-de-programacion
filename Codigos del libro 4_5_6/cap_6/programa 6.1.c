@@ -20,6 +20,7 @@ scanf("%d", &A[I][J]);
 }
 }
 void Imprime(int A[][TAM], int F)
+{
 int I, J;
 for (I=0; I<F; I++)
 for (J=0; J<TAM; J++)

@@ -29,7 +29,7 @@ int I;
 for (I=0; I<T; I++)
 printf("\nVEC[%d]: %d", I, VEC[I]);
 }
-void Frecuencia(int A[], int P, int B[], int T)
+void Frecuencia (int A[], int P, int B[], int T)
 {
 int I;
 for (I=0; I<P; I++)

@@ -30,6 +30,7 @@ printf("\nDesviación: %.2f", DES);
 printf("\nModa: %d", MOD);
 }
 void Lectura(int A[], int T)
+{
 int I;
 for (I=0; I<T; I++)
 {
@@ -38,6 +39,7 @@ scanf("%d", &A[I]);
 }
 }
 float Media(int A[], int T)
+{
 int I;
 float SUM = 0.0;
 for (I=0; I < T; I++)
@@ -57,6 +59,7 @@ float Desviacion(float V)
 return (sqrt(V));
 }
 void Frecuencia(int A[], int P, int B[])
+{
 int I;
 for (I=0; I < P; I++)
 B[A[I]]++;

@@ -12,7 +12,7 @@ printf("Ingrese el tamaño del arreglo: ");
 scanf("%d", &N);
 }
 while (N > MAX || N < 1);
-N);
+Lectura (MAT, N);
 RES = Simetrico(MAT, N);
 if (RES)
 printf("\nEl arreglo bidimensional es simétrico");
@@ -30,6 +30,7 @@ scanf("%d", &A[I][J]);
 }
 }
 int Simetrico (int A[][MAX], int T)
+{
 int I = 0, J, F = 1;
 while ((I < T) && F)
 {

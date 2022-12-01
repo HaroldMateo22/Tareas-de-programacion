@@ -47,6 +47,7 @@ A[J][C-I-1]=AUX;
 }
 }
 void Imprime(float A[][MAX], int F, int C)
+{
 int I, J;
 for (I=0; I< F; I++)
 for (J=0; J<C; J++)

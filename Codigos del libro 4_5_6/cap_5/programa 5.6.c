@@ -10,7 +10,7 @@ float VEC[MAX];
 double RES;
 Lectura(VEC, MAX);
 RES = Suma(VEC, MAX);
-➥printf("\n\nSuma del arreglo: %.2lf", RES);
+printf("\n\nSuma del arreglo: %.2lf", RES);
 }
 void Lectura(float A[], int T)
 {
