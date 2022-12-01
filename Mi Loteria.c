@@ -25,9 +25,9 @@ int main(void)
             scanf("%d", &num3);
             
             srand(time(NULL));
-            al1 = rand() % 10;
-            al2 = rand() % 10;
-            al3 = rand() % 10;
+            al1 = rand() % 101;
+            al2 = rand() % 101;
+            al3 = rand() % 101;
             
             printf("El primer numero ganador es: %d\n", al1);
             printf("El segundo numero ganador es: %d\n", al2);
