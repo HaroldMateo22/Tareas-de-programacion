@@ -17,17 +17,17 @@ int main(void)
         scanf("%d", &monto);
         if (monto >= 1 && monto <= 10000)
         {
-            printf("ingrese el numero 1: \n");
+            printf("\ningrese el numero 1: \n");
             scanf("%d", &num1);
-            printf("ingrese el numero 2: \n");
+            printf("\ningrese el numero 2: \n");
             scanf("%d", &num2);
-            printf("ingrese el numero 3: \n");
+            printf("\ningrese el numero 3: \n");
             scanf("%d", &num3);
             
             srand(time(NULL));
-            al1 = rand() % 101;
-            al2 = rand() % 101;
-            al3 = rand() % 101;
+            al1 = rand() % 11;
+            al2 = rand() % 11;
+            al3 = rand() % 11;
             
             printf("El primer numero ganador es: %d\n", al1);
             printf("El segundo numero ganador es: %d\n", al2);
