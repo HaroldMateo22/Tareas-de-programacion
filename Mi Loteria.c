@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <ctype.h>
+#include <time.h>
 
 int num1, num2, num3;
 int al1, al2, al3;
@@ -25,9 +27,9 @@ int main(void)
             scanf("%d", &num3);
             
             srand(time(NULL));
-            al1 = rand() % 11;
-            al2 = rand() % 11;
-            al3 = rand() % 11;
+            al1 = rand() % 101;
+            al2 = rand() % 101;
+            al3 = rand() % 101;
             
             printf("El primer numero ganador es: %d\n", al1);
             printf("El segundo numero ganador es: %d\n", al2);
